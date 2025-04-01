@@ -38,6 +38,44 @@ Xand2_1 A B VDD VSS X sg13g2_and2_1
   </Symbol>
 </Component>
 
+<Component sg13g2_and2_2>
+  <Description>
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_and2_2 A B VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_and2_2  gnd A B VDD VSS X 
+Xand2_1 A B VDD VSS X sg13g2_and2_2
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -130 -190 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <Line -110 -90 0 -20 #000080 2 1>
+    <Line -110 -190 0 -20 #000080 2 1>
+    <Line -90 -150 30 0 #000080 2 1>
+    <Text -100 -220 12 #000000 0 "VDD">
+    <Text -100 -100 12 #000000 0 "VSS">
+    <Text -115 -185 12 #000000 0 "&">
+    <Line -150 -170 20 0 #000080 2 1>
+    <Line -150 -130 20 0 #000080 2 1>
+    <.PortSym -150 -170 1 0>
+    <Text -150 -190 12 #000000 0 "A">
+    <Text -150 -150 12 #000000 0 "B">
+    <.PortSym -150 -130 2 0>
+    <.PortSym -110 -210 3 0>
+    <.PortSym -110 -90 4 0>
+    <.PortSym -60 -150 5 180>
+    <Text -80 -170 12 #000000 0 "X">
+    <Text -115 -132 12 #000000 0 "x2">
+    <.ID -90 -76 AND>
+  </Symbol>
+</Component>
+
+
 <Component sg13g2_and3_1>
   <Description>
 Author: Mike Brinson,  Feb 2024
@@ -79,6 +117,49 @@ Xand3_1 A B C VDD VSS X sg13g2_and3_1
   </Symbol>
 </Component>
 
+<Component sg13g2_and3_2>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_and3_2 A B C VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_and3_2  gnd A B C VDD VSS X 
+Xand3_1 A B C VDD VSS X sg13g2_and3_2
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Line 20 0 30 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text -5 -35 12 #000000 0 "&">
+    <Line -40 -20 20 0 #000080 2 1>
+    <.PortSym -40 -20 1 0>
+    <Text -40 -40 12 #000000 0 "A">
+    <Text 30 -20 12 #000000 0 "X">
+    <Line -40 0 20 0 #000080 2 1>
+    <Line -40 20 20 0 #000080 2 1>
+    <.PortSym -40 20 3 0>
+    <.PortSym -40 0 2 0>
+    <Text -40 -20 12 #000000 0 "B">
+    <Text -40 0 12 #000000 0 "C">
+    <.PortSym 0 -60 4 0>
+    <Text 10 50 12 #000000 0 "VSS">
+    <.PortSym 50 0 6 180>
+    <.PortSym 0 60 5 0>
+    <Text -5 18 12 #000000 0 "x2">
+    <.ID -40 84 AND>
+  </Symbol>
+</Component>
+
+
 <Component sg13g2_and4_1>
   <Description>
 Author: Mike Brinson,  Feb 2024
@@ -119,6 +200,51 @@ Xand4_1 A B C D VDD VSS X sg13g2_and4_1
     <Line 20 10 30 0 #000080 2 1>
     <.PortSym 50 10 7 180>
     <Text 30 -20 12 #000000 0 "X">
+    <.ID 50 24 AND>
+  </Symbol>
+</Component>
+
+<Component sg13g2_and4_2>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_and4_1 A B C D VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_and4_1  gnd A B C D VDD VSS X 
+Xand4_1 A B C D VDD VSS X sg13g2_and4_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -20 -40 40 100 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text -5 -35 12 #000000 0 "&">
+    <Line -40 -20 20 0 #000080 2 1>
+    <.PortSym -40 -20 1 0>
+    <Text -40 -40 12 #000000 0 "A">
+    <Line -40 0 20 0 #000080 2 1>
+    <Line -40 20 20 0 #000080 2 1>
+    <.PortSym -40 20 3 0>
+    <.PortSym -40 0 2 0>
+    <Text -40 -20 12 #000000 0 "B">
+    <Text -40 0 12 #000000 0 "C">
+    <Line -40 40 20 0 #000080 2 1>
+    <.PortSym -40 40 4 0>
+    <Text -40 20 12 #000000 0 "D">
+    <.PortSym 0 -60 5 0>
+    <Line 0 80 0 -20 #000080 2 1>
+    <.PortSym 0 80 6 0>
+    <Text 10 70 12 #000000 0 "VSS">
+    <Line 20 10 30 0 #000080 2 1>
+    <.PortSym 50 10 7 180>
+    <Text 30 -20 12 #000000 0 "X">
+    <Text -5 34 12 #000000 0 "x2">
     <.ID 50 24 AND>
   </Symbol>
 </Component>
