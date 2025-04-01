@@ -158,6 +158,152 @@ Xbuf_1 A  VDD VSS X sg13g2_buf_1
   </Symbol>
 </Component>
 
+<Component sg13g2_buf_2>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_buf_2 A VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_buf_2  gnd A VDD VSS X 
+Xbuf_1 A  VDD VSS X sg13g2_buf_2
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Line 20 0 30 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text 30 -20 12 #000000 0 "X">
+    <Line -40 0 20 0 #000080 2 1>
+    <Text -40 -20 12 #000000 0 "A">
+    <Text -5 17 12 #000000 0 "x2">
+    <.PortSym -40 0 1 0>
+    <.PortSym 0 -60 2 0>
+    <.PortSym 0 60 3 0>
+    <.ID 60 24 BUF>
+    <.PortSym 50 0 4 180>
+  </Symbol>
+</Component>
+
+
+<Component sg13g2_buf_4>
+  <Description>
+Author: Michael Zappe,  Mar 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_buf_4 A VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_buf_4  gnd A VDD VSS X 
+Xbuf_1 A  VDD VSS X sg13g2_buf_4
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Line 20 0 30 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text 30 -20 12 #000000 0 "X">
+    <Line -40 0 20 0 #000080 2 1>
+    <Text -40 -20 12 #000000 0 "A">
+    <Text -5 17 12 #000000 0 "x4">
+    <.PortSym -40 0 1 0>
+    <.PortSym 0 -60 2 0>
+    <.PortSym 0 60 3 0>
+    <.ID 60 24 BUF>
+    <.PortSym 50 0 4 180>
+  </Symbol>
+</Component>
+
+<Component sg13g2_buf_8>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_buf_8 A VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_buf_8  gnd A VDD VSS X 
+Xbuf_1 A  VDD VSS X sg13g2_buf_8
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Line 20 0 30 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text 30 -20 12 #000000 0 "X">
+    <Line -40 0 20 0 #000080 2 1>
+    <Text -40 -20 12 #000000 0 "A">
+    <Text -5 17 12 #000000 0 "x8">
+    <.PortSym -40 0 1 0>
+    <.PortSym 0 -60 2 0>
+    <.PortSym 0 60 3 0>
+    <.ID 60 24 BUF>
+    <.PortSym 50 0 4 180>
+  </Symbol>
+</Component>
+
+<Component sg13g2_buf_16>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_buf_16 A VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_buf_16  gnd A VDD VSS X 
+Xbuf_1 A  VDD VSS X sg13g2_buf_16
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Line 20 0 30 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text 30 -20 12 #000000 0 "X">
+    <Line -40 0 20 0 #000080 2 1>
+    <Text -40 -20 12 #000000 0 "A">
+    <Text -12 17 12 #000000 0 "x16">
+    <.PortSym -40 0 1 0>
+    <.PortSym 0 -60 2 0>
+    <.PortSym 0 60 3 0>
+    <.ID 60 24 BUF>
+    <.PortSym 50 0 4 180>
+  </Symbol>
+</Component>
+
+
 <Component sg13g2_inv_1>
   <Description>
 Author: Mike Brinson,  Feb 2024
@@ -193,6 +339,155 @@ Xinv_1 A VDD VSS Y sg13g2_inv_1
     <.ID 50 24 INV>
   </Symbol>
 </Component>
+
+<Component sg13g2_inv_2>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_inv_2 A VDD VSS Y
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_inv_2  gnd A VDD VSS Y 
+Xinv_1 A VDD VSS Y sg13g2_inv_2
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Line -40 0 20 0 #000080 2 1>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Ellipse 20 -5 10 10 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 30 0 20 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <.PortSym 0 60 3 0>
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text 30 -30 12 #000000 0 "Y">
+    <Text -40 -30 12 #000000 0 "A">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text -5 17 12 #000000 0 "x2">
+    <.PortSym -40 0 1 0>
+    <.PortSym 50 0 4 180>
+    <.PortSym 0 -60 2 0>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <.ID 50 24 INV>
+  </Symbol>
+</Component>
+
+<Component sg13g2_inv_4>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_inv_4 A VDD VSS Y
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_inv_4  gnd A VDD VSS Y 
+Xinv_1 A VDD VSS Y sg13g2_inv_4
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Line -40 0 20 0 #000080 2 1>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Ellipse 20 -5 10 10 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 30 0 20 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <.PortSym 0 60 3 0>
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text 30 -30 12 #000000 0 "Y">
+    <Text -40 -30 12 #000000 0 "A">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text -5 17 12 #000000 0 "x4">
+    <.PortSym -40 0 1 0>
+    <.PortSym 50 0 4 180>
+    <.PortSym 0 -60 2 0>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <.ID 50 24 INV>
+  </Symbol>
+</Component>
+
+<Component sg13g2_inv_8>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_inv_8 A VDD VSS Y
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_inv_8  gnd A VDD VSS Y 
+Xinv_1 A VDD VSS Y sg13g2_inv_8
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Line -40 0 20 0 #000080 2 1>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Ellipse 20 -5 10 10 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 30 0 20 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <.PortSym 0 60 3 0>
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text 30 -30 12 #000000 0 "Y">
+    <Text -40 -30 12 #000000 0 "A">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text -5 17 12 #000000 0 "x8">
+    <.PortSym -40 0 1 0>
+    <.PortSym 50 0 4 180>
+    <.PortSym 0 -60 2 0>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <.ID 50 24 INV>
+  </Symbol>
+</Component>
+
+<Component sg13g2_inv_16>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_inv_16 A VDD VSS Y
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_inv_16  gnd A VDD VSS Y 
+Xinv_1 A VDD VSS Y sg13g2_inv_16
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Line -40 0 20 0 #000080 2 1>
+    <Line 0 60 0 -20 #000080 2 1>
+    <Line 0 -40 0 -20 #000080 2 1>
+    <Ellipse 20 -5 10 10 #ff0000 3 1 #c0c0c0 1 0>
+    <Line 30 0 20 0 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <.PortSym 0 60 3 0>
+    <Text 10 50 12 #000000 0 "VSS">
+    <Text 30 -30 12 #000000 0 "Y">
+    <Text -40 -30 12 #000000 0 "A">
+    <Text -5 -35 12 #000000 0 "1">
+    <Text -12 17 12 #000000 0 "x16">
+    <.PortSym -40 0 1 0>
+    <.PortSym 50 0 4 180>
+    <.PortSym 0 -60 2 0>
+    <Rectangle -20 -40 40 80 #ff0000 3 1 #c0c0c0 1 0>
+    <.ID 50 24 INV>
+  </Symbol>
+</Component>
+
 
 <Component sg13g2_mux2_1>
   <Description>
@@ -285,7 +580,7 @@ mbrin72043@yahoo.co.uk, or brinsonm@staff.londonmet.ac.uk
 .Def:End
   </Model>
   <Spice>*
-.SUBCKT Nand3R4_sg13g2_nand3_1  gnd A B C VDD VSS Y 
+.SUBCKT IHP_PDK_stdcells_sg13g2_nand3_1  gnd A B C VDD VSS Y 
 Xnand3_1 A B C VDD VSS Y sg13g2_nand3_1
 .ENDS
   </Spice>
