@@ -977,28 +977,151 @@ Xdfrbp_1 CLK D Q Q_N RESET_B VDD VSS sg13g2_dfrbp_1
   <VerilogModel>  </VerilogModel>
   <VHDLModel>  </VHDLModel>
   <Symbol>
-	<Rectangle -50 -40 100 80 #ff0000 1 1 #c0c0c0 1 0>
-	<Line -50 0 -20 0 #000080 2 1>
-	<.PortSym -70 0 1 0 CLK>
-	<Line -50 -20 -20 0 #000080 2 1>
-	<.PortSym -70 -20 2 0 D>
-	<.PortSym -70 20 5 0 RESET_B>
-	<Line -50 20 -20 0 #000080 2 1>
-	<Text -47 -30 12 #000000 0 "D">
-	<Text -47 -10 12 #000000 0 "CLK">
-	<Text -47 10 12 #000000 0 "RESETB">
-	<Line 70 -10 -20 0 #000080 2 1>
-	<.PortSym 70 -10 3 180 Q>
-	<.PortSym 70 10 4 180 Q_N>
-	<Line 70 10 -20 0 #000080 2 1>
-	<Text 10 50 12 #000000 0 "VSS">
-	<.PortSym 0 60 7 90 VSS>
-	<Line 0 40 0 20 #000080 2 1>
-	<Text 10 -70 12 #000000 0 "VDD">
-	<.PortSym 0 -60 6 270 VDD>
-	<Line 0 -60 0 20 #000080 2 1>
-	<Text 30 -20 12 #000000 0 "Q">
-	<Text 20 -1 12 #000000 0 "QB ">
-      <.ID 60 24 DFRBP>
+    <Rectangle -50 -40 100 80 #ff0000 1 1 #c0c0c0 1 0>
+    <Line -50 0 -20 0 #000080 2 1>
+    <.PortSym -70 0 1 0 CLK>
+    <Line -50 -20 -20 0 #000080 2 1>
+    <.PortSym -70 -20 2 0 D>
+    <.PortSym -70 20 5 0 RESET_B>
+    <Line -50 20 -20 0 #000080 2 1>
+    <Text -47 -30 12 #000000 0 "D">
+    <Text -47 -10 12 #000000 0 "CLK">
+    <Text -47 10 12 #000000 0 "RESETB">
+    <Line 70 -10 -20 0 #000080 2 1>
+    <.PortSym 70 -10 3 180 Q>
+    <.PortSym 70 10 4 180 Q_N>
+    <Line 70 10 -20 0 #000080 2 1>
+    <Text 10 50 12 #000000 0 "VSS">
+    <.PortSym 0 60 7 90 VSS>
+    <Line 0 40 0 20 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <.PortSym 0 -60 6 270 VDD>
+    <Line 0 -60 0 20 #000080 2 1>
+    <Text 30 -20 12 #000000 0 "Q">
+    <Text 20 -1 12 #000000 0 "QB">
+    <.ID 60 24 DFRBP>
+  </Symbol>
+</Component>
+
+<Component sg13g2_dfrbp_2>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dfrbp_2 CLK D Q Q_N RESET_B VDD VSS
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dfrbp_2 gnd CLK D Q Q_N RESET_B VDD VSS
+Xdfrbp_2 CLK D Q Q_N RESET_B VDD VSS sg13g2_dfrbp_2
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -50 -40 100 80 #ff0000 1 1 #c0c0c0 1 0>
+    <Line -50 0 -20 0 #000080 2 1>
+    <.PortSym -70 0 1 0 CLK>
+    <Line -50 -20 -20 0 #000080 2 1>
+    <.PortSym -70 -20 2 0 D>
+    <.PortSym -70 20 5 0 RESET_B>
+    <Line -50 20 -20 0 #000080 2 1>
+    <Text -47 -30 12 #000000 0 "D">
+    <Text -47 -10 12 #000000 0 "CLK">
+    <Text -47 10 12 #000000 0 "RESETB">
+    <Line 70 -10 -20 0 #000080 2 1>
+    <.PortSym 70 -10 3 180 Q>
+    <.PortSym 70 10 4 180 Q_N>
+    <Line 70 10 -20 0 #000080 2 1>
+    <Text 10 50 12 #000000 0 "VSS">
+    <.PortSym 0 60 7 90 VSS>
+    <Line 0 40 0 20 #000080 2 1>
+    <Text 10 -70 12 #000000 0 "VDD">
+    <.PortSym 0 -60 6 270 VDD>
+    <Line 0 -60 0 20 #000080 2 1>
+    <Text 30 -20 12 #000000 0 "Q">
+    <Text 20 -1 12 #000000 0 "QB">
+    <Text 0 -40 12 #000000 0 "x2">
+    <.ID 60 24 DFRBP>
+  </Symbol>
+</Component>
+
+<Component sg13g2_dlhr_1>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dlhr_1 D GATE Q Q_N RESET_B VDD VSS
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dlhr_1 gnd D GATE Q Q_N RESET_B VDD VSS
+Xdlhr_1 D GATE Q Q_N RESET_B VDD VSS sg13g2_dlhr_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -50 -40 100 80 #ff0000 1 1 #c0c0c0 1 0>
+    <Line -50 0 -20 0 #000080 2 1>
+    <Line -50 -20 -20 0 #000080 2 1>
+    <.PortSym -70 20 5 0 RESET_B>
+    <Line -50 20 -20 0 #000080 2 1>
+    <Text -47 -30 12 #000000 0 "D">
+    <Text -47 -10 12 #000000 0 "GATE">
+    <Text -47 10 12 #000000 0 "RESETB">
+    <Line 70 -10 -20 0 #000080 2 1>
+    <.PortSym 70 -10 3 180 Q>
+    <.PortSym 70 10 4 180 Q_N>
+    <Line 70 10 -20 0 #000080 2 1>
+    <.PortSym 0 60 7 90 VSS>
+    <Line 0 40 0 20 #000080 2 1>
+    <.PortSym 0 -60 6 270 VDD>
+    <Line 0 -60 0 20 #000080 2 1>
+    <.ID 60 24 DLHR>
+    <Text 30 -20 12 #000000 0 "Q">
+    <Text 20 -1 12 #000000 0 "QB ">
+    <.PortSym -70 0 2 0 GATE>
+    <.PortSym -70 -20 1 0 D>  
+  </Symbol>
+</Component>
+
+<Component sg13g2_dlhrq_1>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dlhrq_1 D GATE Q RESET_B VDD VSS
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dlhrq_1 gnd D GATE Q RESET_B VDD VSS
+Xdlhrq_1 D GATE Q RESET_B VDD VSS sg13g2_dlhrq_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -50 -40 100 80 #ff0000 1 1 #c0c0c0 1 0>
+    <Line -50 0 -20 0 #000080 2 1>
+    <Line -50 -20 -20 0 #000080 2 1>
+    <.PortSym -70 20 4 0 RESET_B>
+    <Line -50 20 -20 0 #000080 2 1>
+    <Text -47 -30 12 #000000 0 "D">
+    <Text -47 -10 12 #000000 0 "GATE">
+    <Text -47 10 12 #000000 0 "RESETB">
+    <.PortSym 70 0 3 180 Q>
+    <Line 70 0 -20 0 #000080 2 1>
+    <.PortSym 0 60 6 90 VSS>
+    <Line 0 40 0 20 #000080 2 1>
+    <.PortSym 0 -60 5 270 VDD>
+    <Line 0 -60 0 20 #000080 2 1>
+    <.ID 60 24 DLHR>
+    <Text 30 -20 12 #000000 0 "Q">
+    <.PortSym -70 0 2 0 GATE>
+    <.PortSym -70 -20 1 0 D>  
   </Symbol>
 </Component>
