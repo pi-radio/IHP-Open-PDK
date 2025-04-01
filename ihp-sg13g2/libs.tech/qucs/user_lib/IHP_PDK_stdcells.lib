@@ -1121,9 +1121,92 @@ Xdlhrq_1 D GATE Q RESET_B VDD VSS sg13g2_dlhrq_1
     <Line 0 40 0 20 #000080 2 1>
     <.PortSym 0 -60 5 270 VDD>
     <Line 0 -60 0 20 #000080 2 1>
-    <.ID 60 24 DLHR>
+    <.ID 60 24 DLHRQ>
     <Text 30 -10 12 #000000 0 "Q">
     <.PortSym -70 0 2 0 GATE>
+    <.PortSym -70 -20 1 0 D>  
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text 10 50 12 #000000 0 "VSS">
+  </Symbol>
+</Component>
+
+<Component sg13g2_dllr_1>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dllr_1 D GATE_N Q Q_N RESET_B VDD VSS
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dllr_1 gnd D GATE_N Q Q_N RESET_B VDD VSS
+Xdllr_1 D GATE_N Q Q_N RESET_B VDD VSS sg13g2_dllr_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -50 -40 100 80 #ff0000 1 1 #c0c0c0 1 0>
+    <Line -50 0 -20 0 #000080 2 1>
+    <Line -50 -20 -20 0 #000080 2 1>
+    <.PortSym -70 20 5 0 RESET_B>
+    <Line -50 20 -20 0 #000080 2 1>
+    <Text -47 -30 12 #000000 0 "D">
+    <Text -47 -10 12 #000000 0 "GATEN">
+    <Text -47 10 12 #000000 0 "RESETB">
+    <Line 70 -10 -20 0 #000080 2 1>
+    <.PortSym 70 -10 3 180 Q>
+    <.PortSym 70 10 4 180 Q_N>
+    <Line 70 10 -20 0 #000080 2 1>
+    <.PortSym 0 60 7 90 VSS>
+    <Line 0 40 0 20 #000080 2 1>
+    <.PortSym 0 -60 6 270 VDD>
+    <Line 0 -60 0 20 #000080 2 1>
+    <.ID 60 24 DLLR>
+    <Text 30 -20 12 #000000 0 "Q">
+    <Text 20 -1 12 #000000 0 "QB ">
+    <.PortSym -70 0 2 0 GATE_N>
+    <.PortSym -70 -20 1 0 D>  
+    <Text 10 -70 12 #000000 0 "VDD">
+    <Text 10 50 12 #000000 0 "VSS">
+  </Symbol>
+</Component>
+
+<Component sg13g2_dllrq_1>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dlhrq_1 D GATE_N Q RESET_B VDD VSS
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dllrq_1 gnd D GATE_N Q RESET_B VDD VSS
+Xdllrq_1 D GATE Q RESET_B VDD VSS sg13g2_dllrq_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <Rectangle -50 -40 100 80 #ff0000 1 1 #c0c0c0 1 0>
+    <Line -50 0 -20 0 #000080 2 1>
+    <Line -50 -20 -20 0 #000080 2 1>
+    <.PortSym -70 20 4 0 RESET_B>
+    <Line -50 20 -20 0 #000080 2 1>
+    <Text -47 -30 12 #000000 0 "D">
+    <Text -47 -10 12 #000000 0 "GATEN">
+    <Text -47 10 12 #000000 0 "RESETB">
+    <.PortSym 70 0 3 180 Q>
+    <Line 70 0 -20 0 #000080 2 1>
+    <.PortSym 0 60 6 90 VSS>
+    <Line 0 40 0 20 #000080 2 1>
+    <.PortSym 0 -60 5 270 VDD>
+    <Line 0 -60 0 20 #000080 2 1>
+    <.ID 60 24 DLLRQ>
+    <Text 30 -10 12 #000000 0 "Q">
+    <.PortSym -70 0 2 0 GATE_N>
     <.PortSym -70 -20 1 0 D>  
     <Text 10 -70 12 #000000 0 "VDD">
     <Text 10 50 12 #000000 0 "VSS">
