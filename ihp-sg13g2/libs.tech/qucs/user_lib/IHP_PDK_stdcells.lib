@@ -1212,3 +1212,115 @@ Xdllrq_1 D GATE Q RESET_B VDD VSS sg13g2_dllrq_1
     <Text 10 50 12 #000000 0 "VSS">
   </Symbol>
 </Component>
+
+
+<Component sg13g2_dlygate4sd1_1>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dlygate4sd1_1 A VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dlygate4sd1_1 gnd A VDD VSS X
+Xdllrq_1 A VDD VSS X sg13g2_dlygate4sd1_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <.ID 60 24 DLY4SD1_>
+    <Line 70 0 -20 0 #000080 2 1>
+    <.PortSym 70 0 4 180 X>
+    <.PortSym -70 0 1 0 D>
+    <Line -50 0 -20 0 #000080 2 1>
+    <Text -47 -10 12 #000000 0 "A">
+    <Rectangle -50 -20 100 40 #ff0000 1 1 #c0c0c0 1 0>
+    <Line 0 20 0 20 #000080 2 1>
+    <Text 13 30 12 #000000 0 "VSS">
+    <.PortSym 0 40 3 90 VSS>
+    <Line 0 -40 0 20 #000080 2 1>
+    <.PortSym 0 -40 2 270 VDD>
+    <Text 13 -50 12 #000000 0 "VDD">
+    <Line -30 0 60 0 #000000 1 1>
+    <Line 30 -10 0 20 #000000 1 1>
+    <Line -30 -10 0 20 #000000 1 1>
+    <Text 38 -11 12 #000000 0 "X">
+  </Symbol>
+</Component>
+
+<Component sg13g2_dlygate4sd2_1>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dlygate4sd2_1 A VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dlygate4sd2_1 gnd A VDD VSS X
+Xdllrq_1 A VDD VSS X sg13g2_dlygate4sd2_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <.ID 60 24 DLY4SD2_>
+    <Line 70 0 -20 0 #000080 2 1>
+    <.PortSym 70 0 4 180 X>
+    <.PortSym -70 0 1 0 D>
+    <Line -50 0 -20 0 #000080 2 1>
+    <Text -47 -10 12 #000000 0 "A">
+    <Rectangle -50 -20 100 40 #ff0000 1 1 #c0c0c0 1 0>
+    <Line 0 20 0 20 #000080 2 1>
+    <Text 13 30 12 #000000 0 "VSS">
+    <.PortSym 0 40 3 90 VSS>
+    <Line 0 -40 0 20 #000080 2 1>
+    <.PortSym 0 -40 2 270 VDD>
+    <Text 13 -50 12 #000000 0 "VDD">
+    <Line -30 0 60 0 #000000 1 1>
+    <Line 30 -10 0 20 #000000 1 1>
+    <Line -30 -10 0 20 #000000 1 1>
+    <Text 38 -11 12 #000000 0 "X">
+  </Symbol>
+</Component>
+
+<Component sg13g2_dlygate4sd3_1>
+  <Description>
+Author: Michael Zappe,  Feb 2025
+zapman@pi-rad.io
+  </Description>
+  <Model>
+.Def:IHP_PDK_stdcells_sg13g2_dlygate4sd3_1 A VDD VSS X
+.Def:End
+  </Model>
+  <Spice>*
+.SUBCKT IHP_PDK_stdcells_sg13g2_dlygate4sd3_1 gnd A VDD VSS X
+Xdllrq_1 A VDD VSS X sg13g2_dlygate4sd3_1
+.ENDS
+  </Spice>
+  <VerilogModel>  </VerilogModel>
+  <VHDLModel>  </VHDLModel>
+  <Symbol>
+    <.ID 60 24 DLY4SD3_>
+    <Line 70 0 -20 0 #000080 2 1>
+    <.PortSym 70 0 4 180 X>
+    <.PortSym -70 0 1 0 D>
+    <Line -50 0 -20 0 #000080 2 1>
+    <Text -47 -10 12 #000000 0 "A">
+    <Rectangle -50 -20 100 40 #ff0000 1 1 #c0c0c0 1 0>
+    <Line 0 20 0 20 #000080 2 1>
+    <Text 13 30 12 #000000 0 "VSS">
+    <.PortSym 0 40 3 90 VSS>
+    <Line 0 -40 0 20 #000080 2 1>
+    <.PortSym 0 -40 2 270 VDD>
+    <Text 13 -50 12 #000000 0 "VDD">
+    <Line -30 0 60 0 #000000 1 1>
+    <Line 30 -10 0 20 #000000 1 1>
+    <Line -30 -10 0 20 #000000 1 1>
+    <Text 38 -11 12 #000000 0 "X">
+  </Symbol>
+</Component>
